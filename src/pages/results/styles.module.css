@@ -1,0 +1,231 @@
+
+.resultLogo{
+    width: 1440px;
+    height: 89px;
+    color: rgba(255, 255, 255, 0.05);
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    margin: 54px auto 0 auto;
+}
+
+.resultCardContainer{
+    position: relative;
+    width: 1069px;
+    border-radius: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 47px auto 63px auto;
+    padding: 44px 0 48px 86px;
+}
+
+.resultTestName{
+    width: 376px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.resultPercent{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    color: #9DE89E;
+    margin-top: 24px;
+}
+
+.resultNameLang{
+    width: 434px;
+    height: 80px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.resultShareBtn{
+    width: 208px;
+    height: 63px;
+    border-radius: 66px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 119px;
+    color: #FFFFFF;
+
+}
+
+.resultShareBtn:hover{
+    width: 208px;
+    height: 63px;
+    border-radius: 66px;
+    background: rgba(255, 255, 255, 0.25);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 119px;
+    color: #FFFFFF;
+
+}
+
+.resultShareBtn1{
+    display: none;
+}
+
+.resultStartOver{
+    position: relative;
+    width: 337px;
+    height: 63px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 auto;
+    border-radius: 66px;
+    background: #9DE89E;
+    display: block;
+    padding: 16px 34px 16px 34px;
+    text-align: left;
+}
+
+.resultStartOver:hover{
+    position: relative;
+    width: 337px;
+    height: 63px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 auto;
+    border-radius: 66px;
+    background: #CCFFCD;
+    display: block;
+}
+
+.resultLangImg{
+    position: absolute;
+    top: 44px;
+    right: 44px;
+}
+
+.rebootIcon{
+    position: absolute;
+    top: 20px;
+    right: 36px ;
+}
+
+.popup {
+    display: flex;
+    position: absolute;
+    min-width: 442px;
+    height: 88px;
+    top: 26px;
+    right: 26px;
+    padding: 20px 24px 20px 28px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 3px solid #FFFFFF26;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: SB Sans Display;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1160px){
+
+    .resultLogo{
+        display: none;
+    }
+
+    .resultCardContainer{
+        position: relative;
+        width: 335px;
+        height: 539px;
+        border-radius: 70px;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 69px auto 46px auto;
+        padding: 36px 28px 28px 28px;
+    }
+
+    .resultTestName{
+        width: 258px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #FFFFFF;
+    }
+
+    .resultLangImg{
+        position: absolute;
+        width: 279px;
+        height: 237px;
+        top: unset;
+        right: unset;
+        border-radius: 32px;
+        bottom: 28px;
+
+    }
+
+    .resultPercent{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 57px;
+        color: #9DE89E;
+    }
+
+    .resultNameLang{
+        font-size: 28px;
+        color: #FFFFFF;
+        margin-bottom: 83px;
+    }
+
+    .resultShareBtn{
+        display: none;
+    }
+
+    .resultShareBtn1{
+        display: block;
+        margin: 12px auto 92px auto ;
+        width: 335px;
+        height: 47px;
+        border-radius: 66px;
+        background: rgba(255, 255, 255, 0.1);
+        font-size: 18px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    .resultStartOver{
+        position: relative;
+        width: 335px;
+        height: 47px;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 auto;
+        border-radius: 66px;
+        background: #9DE89E;
+        display: block;
+        padding: 12px 0 12px 65px;
+
+    }
+
+    .resultStartOver:hover{
+        position: relative;
+        width: 335px;
+        height: 47px;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 auto;
+        border-radius: 66px;
+        background: #9DE89E;
+        display: block;
+        padding: 12px 0 12px 65px;
+    }
+
+    .rebootIcon{
+        position: absolute;
+        top: 12px;
+        right: 65px ;
+    }
+
+    .popup{
+        min-width: 276px;
+        font-size: 16px;
+    }
+}

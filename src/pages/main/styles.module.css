@@ -1,0 +1,100 @@
+.mainPageImg{
+    display: block;
+    width: 638px;
+    height: 400px;
+    margin: 131px auto 39px auto;
+}
+.mainPageH1{
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    transform: skewX(-15deg);
+}
+.mainPageP1{
+    font-size: 32px;
+    text-align: center;
+    color: #9DE89E;
+    margin: 8px auto 24px auto;
+}
+
+.mainPageStartBtn{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px 40px;
+    border-radius: 66px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    display: flex;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.mainPageStartBtn:hover {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px 40px;
+    border-radius: 66px;
+    color: black;
+    background: none;
+    display: flex;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+@media screen and (max-width: 1160px) {
+    .mainPageImg {
+        width: 319px;
+        height: 200px;
+        margin: 120px auto 76px auto;
+    }
+    .mainPageH1{
+
+
+        width: 200px;
+        color: #9DE89E;
+        font-size: 52px;
+        font-weight: 700;
+        margin: 0 auto 40px auto;
+    }
+    .mainPageP1{
+        font-size: 27px;
+        text-align: center;
+        color: #9DE89E;
+        margin: 8px auto 28px auto;
+    }
+
+    .mainSpanText{
+        font-family: SB Sans Display;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: center;
+        width: 599px;
+        height: 26px;
+    }
+
+    .mainPageStartBtn{
+        font-size: 32px;
+        font-weight: 600;
+        padding: 20px 40px;
+        border-radius: 66px;
+        border: 1px solid #FFFFFF;
+        background: none;
+        display: flex;
+        margin: 0 auto 138px auto;
+        color: #FFFFFF;
+    }
+
+    .mainPageStartBtn:hover {
+        font-size: 32px;
+        font-weight: 600;
+        padding: 20px 40px;
+        border-radius: 66px;
+        border: 1px solid #FFFFFF;
+        background: none;
+        display: flex;
+        margin: 0 auto 138px auto;
+        color: #FFFFFF;
+    }
+}
+
